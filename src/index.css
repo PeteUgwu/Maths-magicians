@@ -54,7 +54,7 @@
   background-color: #f5913e;
 }
 
-.operator:hover{
+.operator:hover {
   background-color: #f58326;
 }
 
@@ -69,7 +69,7 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   color: #fff;
   background-color: #dbd6d6;
 }

@@ -50,6 +50,12 @@
   background-color: #e0e0e0;
 }
 
+.digits-dot {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
 .operator {
   background-color: #f5913e;
 }

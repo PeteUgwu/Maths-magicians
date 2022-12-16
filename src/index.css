@@ -21,11 +21,18 @@ li {
 }
 
 .navbar {
-  margin: 1rem 1rem 2rem;
+  padding: 1rem 1rem 2rem;
+  background-color: #858694;
+  height: 4rem;
+  
 }
 
 .listItem {
   color: #316ea4;
+}
+
+.listItem:hover {
+  color: #F18126;
 }
 
 .listItem:not(:first-child) {
@@ -37,6 +44,10 @@ li {
 
 .home {
   margin: 0 1rem;
+}
+
+.home-intro {
+  margin-top: 3rem;
 }
 
 .home-text {

@@ -4,25 +4,28 @@
   box-sizing: border-box;
 }
 
-.navbar, .menuList {
+.navbar,
+.menuList {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
 .title {
   font-size: 26px;
 }
+
 .navbar {
   margin: 1rem 1rem 2rem;
 }
 
 .listItem {
-  color: #316EA4;
+  color: #316ea4;
 }
 
 .listItem:not(:first-child) {
@@ -44,7 +47,6 @@ ul, li {
   display: grid;
   grid-template-columns: 1fr 2fr;
   place-items: baseline;
-
 }
 
 .calc-title {
@@ -57,7 +59,9 @@ ul, li {
   background-color: #e0e0e0;
   border: 1px solid #ccc;
   border-radius: 5px;
+
   /* position: absolute; */
+
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */

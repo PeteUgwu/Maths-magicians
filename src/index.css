@@ -24,7 +24,6 @@ li {
   padding: 1rem 1rem 2rem;
   background-color: #858694;
   height: 4rem;
-  
 }
 
 .listItem {
@@ -32,7 +31,7 @@ li {
 }
 
 .listItem:hover {
-  color: #F18126;
+  color: #f18126;
 }
 
 .listItem:not(:first-child) {

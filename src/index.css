@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar,
+.menuList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.title {
+  font-size: 26px;
+}
+
+.navbar {
+  padding: 1rem 1rem 2rem;
+  background-color: #858694;
+  height: 4rem;
+}
+
+.listItem {
+  color: #316ea4;
+}
+
+.listItem:hover {
+  color: #f18126;
+}
+
+.listItem:not(:first-child) {
+  margin-left: 0.5rem;
+  border-left: 2px solid #464646;
+  height: 20px;
+  padding-left: 0.5rem;
+}
+
+.home {
+  margin: 0 1rem;
+}
+
+.home-intro {
+  margin-top: 3rem;
+}
+
+.home-text {
+  margin-top: 2rem;
+}
+
+.calculator-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: baseline;
+}
+
+.calc-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.calculator {
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  /* position: absolute; */
+
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.display {
+  width: 100%;
+  background-color: #858694;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.2rem;
+  height: 65px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.calc-row-btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.calc-row-btn3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  justify-content: center;
+}
+
+.digit,
+.operator {
+  padding: 0.5rem;
+}
+
+.digit,
+.clear-result,
+.plus-or-minus,
+.percentage {
+  background-color: #e0e0e0;
+}
+
+.digits-dot {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.operator {
+  background-color: #f5913e;
+}
+
+.operator:hover {
+  background-color: #f58326;
+}
+
+button {
+  height: 65px;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  font-size: 1rem;
+  color: #2e2424;
+  background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, 0.04));
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), inset 0 1px 0 0 rgba(255, 255, 255, 0.45), inset 0 -1px 0 0 rgba(255, 255, 255, 0.15), 0 1px 0 0 rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #dbd6d6;
+}
+
+.quote {
+  margin: 0 2rem 0;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20% 0;
+  text-align: center;
+}
